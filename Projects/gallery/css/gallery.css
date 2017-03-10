@@ -1,0 +1,29 @@
+.gallery_row-1{
+    display: flex;     
+}
+.gallery_row-1 .gallery_image-container{
+    width: calc(100% /3);
+}
+
+.gallery_row-3{
+    display: flex;     
+}
+.gallery_row-3 .gallery_image-container{
+    width: calc(100% /2);
+}
+.gallery_row-4{
+    display: flex;     
+}
+.gallery_row-4 .gallery_image-container{
+    width: calc(100% /4);
+}
+
+.gallery_image-container{    
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.gallery_image{
+    width: 100%;
+    display: block;
+}

@@ -1,9 +1,23 @@
 .btn-container_btn {
     cursor: pointer;
-    padding: 0px 8px;
-    line-height: 128px;
-    margin: 0 8px;
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 4px;
+      padding: 16px 10px;
+    /*box-shadow: */
+}
+
+.padge-dscription__btn-container{
+    text-align: center;
+  
 }
 .btn-container_btn--gallery{
-    text-align: center;
+    background-color: #5CB85C;
+    color: white;
+    font-weight: bold;
+}
+.btn-container_btn--more{
+    background-color: #D9534F;
+    color: white;    
+    font-weight: bold;
 }

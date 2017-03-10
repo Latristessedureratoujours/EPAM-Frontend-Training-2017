@@ -1,0 +1,21 @@
+.info_section-1{
+    display: flex;
+}
+.info_section-1 .card{
+    width: calc(100% /3);
+}
+
+.info_section-2{
+    display: flex;
+}
+.info_section-2 .card{
+    width: calc(100% /2);
+}
+.info_section-3{
+    display: flex;
+}
+.info_section-3 .card{
+    width: calc(100% /4);
+}
+
+

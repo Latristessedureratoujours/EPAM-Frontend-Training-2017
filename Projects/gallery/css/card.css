@@ -1,0 +1,67 @@
+.cards-section__card{
+    width: 25%;
+    text-align: center;
+    padding: 50px 30px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.card--color-dark{
+    background-color: #454545;
+    color: white;
+}
+
+.card--color-light-gray{
+    background-color: #E3E7E8;
+    color: #363A3D;
+}
+
+.card--color-gray{
+    background-color: #999999;
+    color: white;
+}
+
+.card--color-dark-gray{
+    background-color: #666666;
+    color: white;
+}
+.card--color-pink{
+    background-color: #EEBBEE;
+    color: black;
+}
+
+.card--color-blue{
+    background-color: #92C4F8;
+    color: black;
+}
+
+.card--color-brown{
+    background-color: #AA5522;
+    color: white;
+}
+
+.card--color-dark-blue{
+    background-color: #2288BB;
+    color: white;
+}
+
+.card--color-dark-green{
+    background-color: #449966;
+    color: white;
+}
+
+.card--color-dark-yellow{
+    background-color: #A4A430;
+    color: white;
+}
+
+.info-section__card{    
+    padding: 0px 16px 16px 16px;
+}
+
+/*.card--title-align-left{
+    text-align: left;
+}
+
+.card--description-position-left{
+    text-align: left;
+}*/
