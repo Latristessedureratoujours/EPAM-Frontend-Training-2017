@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 0.8em;
+}
+.logo_title {
+     opacity: 0.85;
+}
+.logo_description{
+    opacity: 0.6;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: lightgrey
+}
+.menu-item {
+    cursor: pointer;
+    padding: 0px 8px;
+    line-height: 128px;
+    margin: 0 8px;
+}

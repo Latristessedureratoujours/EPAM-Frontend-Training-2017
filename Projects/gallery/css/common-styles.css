@@ -1,0 +1,50 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/open-sans/OpenSans-Light.ttf);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: OpenSans;
+}
+
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;  
+  font-family: OpenSans;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  a {
+    text-decoration: none;
+  }*/
+.padge-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+hr {
+    width: 100%;
+    opacity: 0.3;
+}

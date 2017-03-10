@@ -1,0 +1,46 @@
+/*последовательный(загрузка картинки по частям) и 
+прогрессивный(картинка открывается сразу в низком кач-ве, потом детализируется) jpg(jpeg)*/
+/*text align работает так же и с картинками*/
+@font-face {
+    font-family: quicksand;
+    src: url(fonts/Quicksand-BoldItalic.otf);
+}
+
+html, body{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+header {
+    position: relative;
+    background: url(background.png);
+    height: 30vh;
+}
+
+.TitleContent{
+    position: absolute;    
+    background: rgba(255, 255, 255, 0.8);
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 6px;
+    transform: translate(-50%, -50%); /*верхний левый угол серого прямоугольника считается центром блока заголовка,
+    поэтому нужно сместить маленький на полвину его ширины и высоты влево и вверх соответственно*/
+    
+    /*border: 4 px solid black;*/
+    
+
+}
+.TitleText {
+    
+    
+    background: url(titleBackground.jpg);
+    font-size: 40px;
+    font-family: quicksand;
+    filter: opacity(0.8);
+    border: 2px solid black;
+}

@@ -1,0 +1,25 @@
+.home__padge-dscription{    
+    background-image: url(../images/tm-sigma-00.jpg);
+}
+/*.home{
+    display: flex;
+    align-items: stretch;
+}*/
+.padge-dscription_title {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 2.5em;
+    color: black;   /*???*/
+}
+.home__padge-dscription{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+    font-size: 1.5em;    
+}
+.padge-dscription {
+    opacity:0.55;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}

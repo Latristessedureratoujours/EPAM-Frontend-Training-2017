@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common-styles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/card-section.css">
+    <link rel="stylesheet" href="./css/padge-descr.css">
+    <link rel="stylesheet" href="./css/btn-container.css">
+    <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic'>-->
+    <title>Sigma - Free Bootstrap 4.0 Template</title>
+</head>
+
+<body class="padge-container">
+    <header class="header">
+            <!--"дырка" для блока с лого-->
+            <div class="logo">
+                <!--переносимый блок, внутри - неделимые части-->
+                <h1 class="logo_title">Sigma</h1>
+                <h2 class="logo_description">Image Gallery built on Bootstrap 4.0</h2>
+            </div>
+        
+        <div class="header__nav-menu-container">
+            <!--"дырка" для блока с меню-->
+            <ul class="menu header__nav-menu-container_menu">
+                <!-- в "menu"(класс-контейнер) задавать узко-спец. стили для блока, в "header_nav-menu-container_menu" - позиционирование, отступы...-->
+                <li class="menu-item">Home</li>
+                <!--"menu_item" - элемент, ему не нужно указывать класс родителя для позиционирования и проч.-->
+                <li class="menu-item">Gallery</li>
+                <li class="menu-item">About</li>
+                <li class="menu-item">Contact</li>
+                <li class="menu-item">External</li>
+            </ul>
+        </div>
+    </header>
+
+    <hr class="padge-container__breakline"></hr>
+
+    <main class="main">
+        <div class="home">
+            <div class="padge-dscription home__padge-dscription"><!--home_padge-dscription - "дырка" для переносимого блока-->
+                <div class="padge-dscription">
+                    <h1 class="padge-dscription_title">Bootstrap 4.0 Theme</h1>
+                    <p class="padge-dscription_content">Sigma is free Bootstrap 4 (alpha 2) theme designed for a metro-style image grid gallery. Download, modify and use this layout for your websites.</p>
+                    <div class="btn-container">
+                        <div class="btn-container_btn btn-container_btn--gallery">
+                            Our gallery
+                        </div>
+                        <div class="btn-container_btn btn-container_btn--more">
+                            Learn more
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards-section">
+            <div class="card_icon">
+                <i class="fa fa-power-off fa-3x" aria-hidden="true"></i>
+            </div>
+            <h2>Design</h2>
+            <p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            <div class="card_icon">
+                <i class="fa fa-bolt fa-3x" aria-hidden="true"></i>
+            </div>
+            <h2>Implement</h2>
+            <p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            <div class="card_icon">
+                <i class="fa fa-thumbs-up fa-3x" aria-hidden="true"></i>
+            </div>
+            <h2>Enhance</h2>
+            <p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+            <div class="card_icon">
+                <i class="fa fa-bar-chart fa-3x" aria-hidden="true"></i>
+            </div>
+            <h2>Monitor</h2>
+            <p>Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi. Praesent ornare massa vehicula.</p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-container_row-1">
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-01.jpg" class="gallery-container_image">
+                </div>
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-02.jpg" class="gallery-container_image">
+                </div>
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-03.jpg" class="gallery-container_image">
+                </div>
+            </div>
+            <div class="gallery-container_row-2">
+                <div class="gallery-container_column-1">
+                    <div class="gallery-container_image-container">
+                        <img src="images/tm-sigma-04.jpg" class="gallery-container_image">
+                    </div>
+                </div>
+                <div class="gallery-container_column-2">
+                    <div class="gallery-container_image-container">
+                        <img src="images/tm-sigma-05.jpg" class="gallery-container_image">
+                    </div>
+                    <div class="gallery-container_image-container">
+                        <img src="images/tm-sigma-06.jpg" class="gallery-container_image">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container_row-3">
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-07.jpg" class="gallery-container_image">
+                </div>
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-08.jpg" class="gallery-container_image">
+                </div>
+            </div>
+            <div class="gallery-container_row-4">
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-01.jpg" class="gallery-container_image">
+                </div>
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-02.jpg" class="gallery-container_image">
+                </div>
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-03.jpg" class="gallery-container_image">
+                </div>
+                <div class="gallery-container_image-container">
+                    <img src="images/tm-sigma-04.jpg" class="gallery-container_image">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.btn-container_btn {
+    cursor: pointer;
+    padding: 0px 8px;
+    line-height: 128px;
+    margin: 0 8px;
+}
+.btn-container_btn--gallery{
+    text-align: center;
+}
